@@ -1,0 +1,26 @@
+PODS:
+  - MCBetterList (0.1.0):
+    - MCBetterList/CollectionView (= 0.1.0)
+    - MCBetterList/ListPlaceholder (= 0.1.0)
+    - MCBetterList/Namespace (= 0.1.0)
+    - MCBetterList/TableView (= 0.1.0)
+  - MCBetterList/CollectionView (0.1.0):
+    - MCBetterList/Namespace
+  - MCBetterList/ListPlaceholder (0.1.0)
+  - MCBetterList/Namespace (0.1.0)
+  - MCBetterList/TableView (0.1.0):
+    - MCBetterList/Namespace
+
+DEPENDENCIES:
+  - MCBetterList (from `../`)
+
+EXTERNAL SOURCES:
+  MCBetterList:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MCBetterList: 0c0e5fa720f104fa8f47fcd1483bf8bff978b524
+
+PODFILE CHECKSUM: ad6f057264c7097dbecee5cf0be6e03c1c56e33f
+
+COCOAPODS: 1.16.2

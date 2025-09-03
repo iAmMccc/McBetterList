@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '15.0'
+
+target 'MCBetterList_Example' do
+  pod 'MCBetterList', :path => '../'
+
+  target 'MCBetterList_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_MCBetterList_Example {
+  umbrella header "Pods-MCBetterList_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
