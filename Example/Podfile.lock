@@ -1,14 +1,14 @@
 PODS:
-  - MCBetterList (0.1.0):
-    - MCBetterList/CollectionView (= 0.1.0)
-    - MCBetterList/ListPlaceholder (= 0.1.0)
-    - MCBetterList/Namespace (= 0.1.0)
-    - MCBetterList/TableView (= 0.1.0)
-  - MCBetterList/CollectionView (0.1.0):
+  - MCBetterList (0.1.1):
+    - MCBetterList/CollectionView (= 0.1.1)
+    - MCBetterList/ListPlaceholder (= 0.1.1)
+    - MCBetterList/Namespace (= 0.1.1)
+    - MCBetterList/TableView (= 0.1.1)
+  - MCBetterList/CollectionView (0.1.1):
     - MCBetterList/Namespace
-  - MCBetterList/ListPlaceholder (0.1.0)
-  - MCBetterList/Namespace (0.1.0)
-  - MCBetterList/TableView (0.1.0):
+  - MCBetterList/ListPlaceholder (0.1.1)
+  - MCBetterList/Namespace (0.1.1)
+  - MCBetterList/TableView (0.1.1):
     - MCBetterList/Namespace
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MCBetterList: 0c0e5fa720f104fa8f47fcd1483bf8bff978b524
+  MCBetterList: 0b1600023250b361914b8fd54cd82222a1e76735
 
 PODFILE CHECKSUM: ad6f057264c7097dbecee5cf0be6e03c1c56e33f
 

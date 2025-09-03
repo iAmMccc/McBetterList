@@ -58,7 +58,7 @@ public struct ListPlaceholderDefaults {
 
 // MARK: - 全局 Stack 配置
 public struct ListPlaceholderConfig {
-    public var backgroundColor: UIColor = .white
+    public var backgroundColor: UIColor = .clear
     public var padding: UIEdgeInsets = .init(top: 100, left: 50, bottom: 50, right: 50)
     public var alignment: UIStackView.Alignment = .center
 }
@@ -142,7 +142,6 @@ public final class ListPlaceholder: UIView {
                 
             case .image(let img, let size, let configure):
                 let iv = UIImageView(image: img)
-                iv.backgroundColor = UIColor.green
                 let size = size ?? ListPlaceholderDefaults.imageSize
                 iv.translatesAutoresizingMaskIntoConstraints = false
                 iv.heightAnchor.constraint(equalToConstant: size.height).isActive = true

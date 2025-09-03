@@ -26,11 +26,13 @@ class ViewController: UIViewController {
 
         // 2️⃣ 使用 ListPlaceholder
         let placeholder = ListPlaceholder()
-//            .config {
-//                $0.backgroundColor = .white
-//                $0.padding = .init(top: 20, left: 20, bottom: 20, right: 20)
+            .config {
+                
+                $0.backgroundColor = .white
+                $0.padding = .init(top: 20, left: 20, bottom: 20, right: 20)
+                $0.verticalAlignment = .bottom
 //                $0.alignment = .center
-//            }
+            }
             .items {
                 $0.spacer(50)
                 $0.image(UIImage(named: "emptyImage_A"), size: CGSize(width: 380, height: 200))
